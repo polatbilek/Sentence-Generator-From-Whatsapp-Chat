@@ -5,7 +5,7 @@ import numpy
 import copy
 import argparse
 
-def read_messages(path, target, mode):
+def read_messages(path, target, mode): #reads whatsapp chat
 	sentences = []
 
 	with open(path, "r", encoding="utf8") as f:
